@@ -10,7 +10,23 @@ Mini‑projet DevOps consistant à développer un **dashboard de monitoring** av
 
 ## 🧱 Architecture du projet
 
-![structure du projet](./img/1.png)
+```
+.
+├── README.md
+├── api
+│   ├── auth.py
+│   ├── main.py
+│   ├── metrics.py
+│   ├── models.py
+│   └── poller.py
+├── dashboard
+│   └── app.py
+├── requirements.txt
+└── tests
+    ├── conftest.py
+    ├── test_metrics.py
+    └── test_routes.py
+```
 
 ---
 
