@@ -75,6 +75,13 @@ API disponible sur :
 http://localhost:8000
 ```
 
+Si le port 8000 est déjà utilisé, taper la commande suivante pour trouver le processus et le libérer :
+
+```bash
+lsof -i :8000
+kill -9 <PID>
+```
+
 Documentation interactive (Swagger) :
 
 ```bash
