@@ -1,6 +1,7 @@
 # 📊 DevOps Monitoring Dashboard — MVP
 
 Mini‑projet DevOps consistant à développer un **dashboard de monitoring** avec :
+
 - un **backend FastAPI** exposant des métriques système et la gestion de serveurs monitorés
 - un **frontend Streamlit** affichant les métriques en temps réel
 - une **suite de tests automatisés** avec pytest
@@ -12,6 +13,7 @@ Mini‑projet DevOps consistant à développer un **dashboard de monitoring** av
 ![structure du projet](./img/1.png)
 
 ---
+
 ## ⚙️ Prérequis
 
 - Python **≥ 3.10** (testé avec Python 3.13)
@@ -72,9 +74,11 @@ streamlit run dashboard/app.py
 ```
 
 Interface disponible sur :
+
 ```bash
 http://localhost:8501
 ```
+
 ---
 
 ## 🧪 Tests & Validation
